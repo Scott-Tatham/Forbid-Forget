@@ -12,6 +12,7 @@ public class FollowPlayer : MonoBehaviour
     void Start()
     {
         player = transform.parent.GetChild(0);
+        SplitscreenManager.GetSplitscreenManager().AddCamera(GetComponent<Camera>());
     }
 
     void Update()

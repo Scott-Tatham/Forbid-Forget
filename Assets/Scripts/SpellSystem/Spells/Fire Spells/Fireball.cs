@@ -14,11 +14,6 @@ public class Fireball : Spell
         Move();
     }
 
-    public override void Cast(Unit _caster)
-    {
-        // ?
-    }
-
     void Move()
     {
         if (casted)
